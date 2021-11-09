@@ -1,0 +1,76 @@
+body {
+  background-color: aqua;
+}
+
+input.input-form {
+  /* padding: enchimento do elemento
+   * distância interna entre o conteúdo e as bordas
+   * 10 pixels para o topo, esq, dir, inf
+   */
+  padding: 5px;
+
+  /*
+   * border: espessura da borda
+   * 1px para as bordas sup, dir, inf e esq
+   */
+  border: 1px;
+
+  /*
+   * border-radius: arredondamento das bordas do elemento
+   * 6 pixels para as bordas sup-dir, sup-esq, inf-dir, inf-esq
+   */
+  border-radius: 6px;
+
+  /* border-color: cor das bordas
+   * #dddfe2 para as bordas sup, dir, inf, esq
+   */
+  border-color: #dddfe2;
+
+  /* margin-bottom: tamanho da margem inferior
+   * distância de um elemento para os elementos abaixo
+   */
+  margin-bottom: 6px;
+}
+
+button.btn-primary {
+  background-color: #1877f2;
+  border: 1px;
+  border-color: #1877f2;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  color: white;
+  margin-bottom: 6px;
+}
+
+button.btn-primary:hover {
+  background-color: #166fe5;
+  border-color: #166fe5;
+}
+
+div#div-recuperar {
+  margin-bottom: 6px;
+}
+
+a#link-recuperar {
+  text-decoration: none;
+}
+
+a#link-recuperar:hover {
+  text-decoration: underline;
+}
+
+button.btn-success {
+  background-color: #42b72a;
+  border-color: #42b72a;
+  border: 1px;
+  border-radius: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  color: white;
+  margin-bottom: 6px;
+}

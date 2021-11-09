@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Site - Login</title>
+    <link href="style.css" rel="stylesheet">
+  </head>  
+    
+  <body>
+    <!-- Cabeçalho do site -->
+    <header>
+      <h1>Site</h1>
+      <p>Tela de Login do Site</p>
+    </header>
+
+    <!-- Área Principal -->
+    <main>
+      <form>
+        <div>
+          <input 
+            type="text" 
+            id="login" 
+            name="login"
+            placeholder="Digite seu login"
+            autocomplete="off"
+            class="input-form"
+          >
+        </div>
+        
+        <div>
+          <input
+            type="password"
+            id="senha"
+            name="senha"
+            placeholder="Digite sua senha"
+            autocomplete="off"
+            class="input-form"
+          >
+        </div>
+        
+        <div>
+          <button 
+            type="submit"
+            id="btn-login"
+            name="btn-login"
+            class="btn-primary"
+          >
+            Entrar
+          </button>
+        </div>
+        
+        <div id="div-recuperar">
+          <a 
+            href="recuperar-senha.html"
+            id="link-recuperar"
+          >
+            Esqueceu a senha?
+          </a>
+        </div>
+
+        <div>
+          <button 
+            type="button"
+            class="btn-success"
+          >
+            Criar nova conta
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+      <div>
+        <p>Site &copy; 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>
